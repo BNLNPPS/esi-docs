@@ -1,5 +1,5 @@
 ---
-title: "The EIC Simulations Infrastructure"
+title: "The EIC Simulation Infrastructure"
 layout: base5
 name: index
 ---
