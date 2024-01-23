@@ -1,0 +1,20 @@
+url: https://eicug.github.io
+baseurl: /
+collections:
+  content:
+    output: true
+    permalink: /content/:title.html
+
+HR: '<hr style="height:8px;border:none;color:#999;background-color:lightseagreen;" />'
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

@@ -1,0 +1,12 @@
+<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+  <div class="position-sticky pt-3">
+      <ul class="nav flex-column" id="mynavlist">
+            <li>&nbsp;</li>
+            <li class="nav-item">{% include pages.md name=page.name active='index' icon='home' %}Home</a></li>
+            <li class="nav-item">{% include pages.md name=page.name active='opticks' icon='aperture' %}Opticks</a></li>
+            <li class="nav-item">{% include pages.md name=page.name active='cuda' icon='cpu' %}CUDA Notes</a></li>
+            <li class="nav-item">{% include pages.md name=page.name active='fast' icon='fast-forward' %}Fast Simulations</a></li>
+      </ul>
+  </div>
+
+</nav>
