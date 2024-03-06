@@ -23,6 +23,9 @@ name: hardware
 * Rocky Linux 8.8 (based on Red Hat Enterprise Linux 8.8), 64-bit
 
 
-#### Kernel compatible with the drivers
+#### Kernel compatible with the installed drivers
 
-4.18.0-513.9.1.el8_9.x86_64
+There are two kernels with matching installation of the NVidia drivers, on that machine.
+Wre are using `4.18.0-513.9.1.el8_9.x86_64`. This is supposed to be the default the machine
+would boot into.
+
